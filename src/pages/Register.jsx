@@ -1,11 +1,12 @@
 import React from "react";
+import CloseIcon from "@mui/icons-material/Close";
 
 const Register = () => {
   return (
     <div className={`bg-custom flex flex-col items-center justify-center `}>
-      <div className="bg-[rgba(1,1,1,.1)] shadow-black shadow-lg rounded-2xl w-1/2 h-3/4">
+      <div className="bg-[rgba(1,1,1,.1)] shadow-black shadow-lg rounded-2xl w-1/2 h-3/4 relative">
         <h1 className="text-4xl font-bold mt-12 text-center">Register</h1>
-
+        <CloseIcon className="absolute top-8 left-6 text-black cursor-pointer" />
         <div className="w-10/12 my-4 m-auto">
           <form className="" onSubmit={(e) => e.preventDefault()}>
             <input
