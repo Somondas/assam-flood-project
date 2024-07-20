@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  @apply h-screen w-full bg-cover bg-center;
+  background-image: url("/src/assets/blured-bg.jpg");
+}
